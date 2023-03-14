@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33326.253
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E420B130-B8DF-40F3-B4B5-BB49BE6FFCAC}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinnMan.WAS.Server", "src\FinnMan.Server\FinnMan.WAS.Server.csproj", "{4579B03B-9669-4E36-AE08-9F8D3B4CD2F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinnMan.WAS.Client", "src\FinnMan.WAS\FinnMan.WAS.Client.csproj", "{1B433CE6-8A1B-458B-971C-ED5D51F5C032}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinnMan.WAS.Shared", "src\FinnMan.Shared\FinnMan.WAS.Shared.csproj", "{A6F7F630-526A-4F8B-AA22-24262D0C2285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorServerOnly", "BlazorServerOnly", "{29BB667F-5F20-4569-90B6-14CC68B4EAEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorUi", "BlazorUi", "{87E56E67-0A36-495A-8B91-28B37565D116}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWasm", "BlazorWasm", "{5E2DC4ED-F008-4B79-94DD-8A5C115BB327}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{6F87CC23-D5CB-411C-B370-7DE6797300E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedLibraries", "SharedLibraries", "{AA9D4722-9F29-4C12-8CA3-CCCB8049E6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinnMan.BlazorServer", "FinnMan.BlazorServer\FinnMan.BlazorServer.csproj", "{F00F74FA-4416-41C4-BB2B-6BC82679593D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinnMan.Database", "src\FinnMan.Database\FinnMan.Database.csproj", "{7D8001F4-6A1E-4C00-8E0E-1D7D092107A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinnMan.Database.Models", "src\FinnMan.Database.Models\FinnMan.Database.Models.csproj", "{63B11AB6-98F4-46F3-AC65-22A39BAC43B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinnMan.Database.Migrations", "src\FinnMan.Database.Migrations\FinnMan.Database.Migrations.csproj", "{09C8050D-DC97-4FB2-AD9C-CCF338D1FEBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinnManBlazorUi", "src\FinnManBlazorUi\FinnManBlazorUi.csproj", "{29B6BD14-DC0A-4E5B-A217-34057AC38C47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{78363A9E-A5CE-4B2A-AFFD-AD6244C6BC9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinnMan.BTests", "src\FinnMan.BTests\FinnMan.BTests.csproj", "{13EAEDA6-C9F2-4683-AC04-8998CBCBA87B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4579B03B-9669-4E36-AE08-9F8D3B4CD2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4579B03B-9669-4E36-AE08-9F8D3B4CD2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4579B03B-9669-4E36-AE08-9F8D3B4CD2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4579B03B-9669-4E36-AE08-9F8D3B4CD2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B433CE6-8A1B-458B-971C-ED5D51F5C032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B433CE6-8A1B-458B-971C-ED5D51F5C032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B433CE6-8A1B-458B-971C-ED5D51F5C032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B433CE6-8A1B-458B-971C-ED5D51F5C032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F7F630-526A-4F8B-AA22-24262D0C2285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F7F630-526A-4F8B-AA22-24262D0C2285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F7F630-526A-4F8B-AA22-24262D0C2285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F7F630-526A-4F8B-AA22-24262D0C2285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00F74FA-4416-41C4-BB2B-6BC82679593D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00F74FA-4416-41C4-BB2B-6BC82679593D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00F74FA-4416-41C4-BB2B-6BC82679593D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00F74FA-4416-41C4-BB2B-6BC82679593D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8001F4-6A1E-4C00-8E0E-1D7D092107A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8001F4-6A1E-4C00-8E0E-1D7D092107A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8001F4-6A1E-4C00-8E0E-1D7D092107A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8001F4-6A1E-4C00-8E0E-1D7D092107A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B11AB6-98F4-46F3-AC65-22A39BAC43B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B11AB6-98F4-46F3-AC65-22A39BAC43B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B11AB6-98F4-46F3-AC65-22A39BAC43B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B11AB6-98F4-46F3-AC65-22A39BAC43B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C8050D-DC97-4FB2-AD9C-CCF338D1FEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C8050D-DC97-4FB2-AD9C-CCF338D1FEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C8050D-DC97-4FB2-AD9C-CCF338D1FEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C8050D-DC97-4FB2-AD9C-CCF338D1FEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B6BD14-DC0A-4E5B-A217-34057AC38C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B6BD14-DC0A-4E5B-A217-34057AC38C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B6BD14-DC0A-4E5B-A217-34057AC38C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B6BD14-DC0A-4E5B-A217-34057AC38C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13EAEDA6-C9F2-4683-AC04-8998CBCBA87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EAEDA6-C9F2-4683-AC04-8998CBCBA87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EAEDA6-C9F2-4683-AC04-8998CBCBA87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EAEDA6-C9F2-4683-AC04-8998CBCBA87B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4579B03B-9669-4E36-AE08-9F8D3B4CD2F9} = {5E2DC4ED-F008-4B79-94DD-8A5C115BB327}
+		{1B433CE6-8A1B-458B-971C-ED5D51F5C032} = {5E2DC4ED-F008-4B79-94DD-8A5C115BB327}
+		{A6F7F630-526A-4F8B-AA22-24262D0C2285} = {AA9D4722-9F29-4C12-8CA3-CCCB8049E6A7}
+		{F00F74FA-4416-41C4-BB2B-6BC82679593D} = {29BB667F-5F20-4569-90B6-14CC68B4EAEF}
+		{7D8001F4-6A1E-4C00-8E0E-1D7D092107A3} = {6F87CC23-D5CB-411C-B370-7DE6797300E7}
+		{63B11AB6-98F4-46F3-AC65-22A39BAC43B1} = {6F87CC23-D5CB-411C-B370-7DE6797300E7}
+		{09C8050D-DC97-4FB2-AD9C-CCF338D1FEBA} = {6F87CC23-D5CB-411C-B370-7DE6797300E7}
+		{29B6BD14-DC0A-4E5B-A217-34057AC38C47} = {87E56E67-0A36-495A-8B91-28B37565D116}
+		{13EAEDA6-C9F2-4683-AC04-8998CBCBA87B} = {78363A9E-A5CE-4B2A-AFFD-AD6244C6BC9E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFDAE5E6-E2BE-4C8C-B22D-92F534B1D34C}
+	EndGlobalSection
+EndGlobal
