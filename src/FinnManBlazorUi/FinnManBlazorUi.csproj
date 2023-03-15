@@ -19,4 +19,8 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinnMan.Shared\FinnMan.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

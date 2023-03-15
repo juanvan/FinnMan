@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\FinnManBlazorUi\FinnManBlazorUi.csproj" />
+
+		  <ProjectReference Include="..\FinnMan.Database.Models\FinnMan.Database.Models.csproj" />
+	  
+
+  </ItemGroup>
+
+</Project>

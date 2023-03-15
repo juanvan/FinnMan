@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FinnMan.Shared\FinnMan.WAS.Shared.csproj" />
-    <ProjectReference Include="..\FinnMan.WAS\FinnMan.WAS.Client.csproj" />
+    <ProjectReference Include="..\FinnMan.Shared\FinnMan.Shared.csproj" />
+
   </ItemGroup>
 
 
